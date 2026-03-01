@@ -1,0 +1,41 @@
+.Index-page h1,
+.Index-page h2
+{
+    color: #d60000;
+    font-size: 300%;
+    text-align: center;
+    text-shadow: #360708 2px 2px 4px;
+    display : flex;
+    justify-content: center;
+    animation: cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+.Index-page h3 {
+    color: #0020d6;
+    font-size: 150%;
+    text-shadow: #360708 2px 2px 4px;
+    margin-left: 612px;
+}
+.Index-page nav {
+    text-shadow: #d60000 2px 2px 4px;
+    display: flex;
+    justify-content: center;
+    margin-top: 01px;
+    font-size: 200%;
+}
+.Index-page .media {
+    display: flex;
+    gap: 26px;
+    margin-top: 50px;
+    margin-left: 25px;
+    align-items: center;
+}
+.Index-page video,
+.Index-page img {
+    display: flex;
+    margin-left: 233px;
+    justify-content: center;
+}
+.Index-page audio {
+    display: flex;
+    margin-left: 840px;
+}       
